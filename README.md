@@ -21,3 +21,8 @@ So, about to report this to apple.
 8. Note that the preview images looked the same to the naked eye, yet
    the second run crops differently than the first run even though they
 should do the same thing.
+
+Even weirder, sometimes the crop rect is larger than the image and
+shifted a few pixels to the _right_ and _down_. Weird.
+
+Am I missing something?
