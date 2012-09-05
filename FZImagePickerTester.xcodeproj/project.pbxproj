@@ -16,6 +16,7 @@
 		0470376715F7941F00D490F7 /* FZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0470376615F7941F00D490F7 /* FZViewController.m */; };
 		0470376A15F7941F00D490F7 /* FZViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0470376815F7941F00D490F7 /* FZViewController_iPhone.xib */; };
 		0470376D15F7941F00D490F7 /* FZViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0470376B15F7941F00D490F7 /* FZViewController_iPad.xib */; };
+		0470377415F7990800D490F7 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0470377315F7990800D490F7 /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		0470376615F7941F00D490F7 /* FZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZViewController.m; sourceTree = "<group>"; };
 		0470376915F7941F00D490F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FZViewController_iPhone.xib; sourceTree = "<group>"; };
 		0470376C15F7941F00D490F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FZViewController_iPad.xib; sourceTree = "<group>"; };
+		0470377315F7990800D490F7 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0470377415F7990800D490F7 /* AssetsLibrary.framework in Frameworks */,
 				0470375415F7941F00D490F7 /* UIKit.framework in Frameworks */,
 				0470375615F7941F00D490F7 /* Foundation.framework in Frameworks */,
 				0470375815F7941F00D490F7 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +55,7 @@
 		0470374415F7941E00D490F7 = {
 			isa = PBXGroup;
 			children = (
+				0470377315F7990800D490F7 /* AssetsLibrary.framework */,
 				0470375915F7941F00D490F7 /* FZImagePickerTester */,
 				0470375215F7941F00D490F7 /* Frameworks */,
 				0470375015F7941F00D490F7 /* Products */,
@@ -257,6 +261,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FZImagePickerTester/FZImagePickerTester-Prefix.pch";
 				INFOPLIST_FILE = "FZImagePickerTester/FZImagePickerTester-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -268,6 +273,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FZImagePickerTester/FZImagePickerTester-Prefix.pch";
 				INFOPLIST_FILE = "FZImagePickerTester/FZImagePickerTester-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
